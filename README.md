@@ -5,7 +5,7 @@ Set a cron job to run this script and receive the winners list by e-mail :)
 
 ## Getting started
 
-This is a simple webscraping using the classic beautiful soup lib. Then we steal the whole table of winners available in their [website](ttps://company.ebit.com.br/concorra-premios/ultimos-ganhadores), format the table using pretty_html_table lib and mail to you! 
+This is a simple webscraping using the classic beautiful soup lib. Then we steal the whole table of winners available in their [website](https://company.ebit.com.br/concorra-premios/ultimos-ganhadores), format the table using pretty_html_table lib and mail to you! 
 
 
 ## First steps
