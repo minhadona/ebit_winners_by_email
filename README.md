@@ -1,4 +1,4 @@
-# ebit_winners_by_email
+# giveaway_result_by_email
 
 Tired of checking Ebit website?
 Set a cron job to run this script and receive the winners list by e-mail :)
@@ -16,14 +16,14 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
-git remote add origin https://gitlab.com/minhadona/ebit_winners_by_email.git
+git remote add origin https://gitlab.com/minhadona/giveaway_result_by_email.git
 git branch -M main
 git push -uf origin main
 ```
 
 ## Integrate with your tools
 
-- [ ] [Set up project integrations](https://gitlab.com/minhadona/ebit_winners_by_email/-/settings/integrations)
+- [ ] [Set up project integrations](https://gitlab.com/minhadona/giveaway_result_by_email/-/settings/integrations)
 
 ## Collaborate with your team
 
