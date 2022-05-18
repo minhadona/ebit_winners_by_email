@@ -9,3 +9,9 @@ This is a simple webscraping using the classic beautiful soup lib. Then we steal
 
 
 ## First steps
+You'll need
+- a gmail account 
+- recent version of python installed
+- basic knowledge of cron (or app deploy on heroku, it's up to you)
+
+
