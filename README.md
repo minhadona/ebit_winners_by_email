@@ -25,7 +25,9 @@ Set a cron job to run this script and receive the winners list by e-mail :)
 ## You'll need
 - a gmail account 
 - recent version of python installed
-- basic knowledge of cron (or app deploy on heroku, it's up to you)
+- clone this repository, browse into it
+- execute `pip install -r requirements.txt`
+- basic (VERY BASIC) knowledge of cron (or app deploy on heroku, it's up to you) - optional
      
  <br>
  <br>

@@ -56,7 +56,7 @@ import logging
 port = 465
 smtp_server = "smtp.gmail.com"
 sender_email = "ebit_webscraping@minhadona.com" # Enter your address
-receiver_email = "mg88zollverein@gmail.com"  # Enter receiver address
+receiver_email = os.environ['EMAIL_USERNAME']  # Enter receiver address
 password = os.environ['EMAIL_PASSWORD']
 email_username = os.environ['EMAIL_USERNAME']
 message = MIMEMultipart("alternative")
@@ -90,7 +90,7 @@ def connect_and_send_email(plain_text, html_text):
         
 
 
-# In[9]:
+# In[ ]:
 
 
 #==============================================
