@@ -46,7 +46,7 @@ Something like this must be there:
 
 The original table comes from: 
 
-![](https://imgur.com/mRq9SkD)
+![](https://imgur.com/mRq9SkD.png)
 
 This is it. Suggestions? [Mail me](mailto:minhadona@tuta.io)
 
