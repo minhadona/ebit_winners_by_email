@@ -15,7 +15,7 @@ Set a cron job to run this script and receive the winners list by e-mail :)
      
  <br>
  <br>
-         
+
 ## 1. Find where your python is
 If you're using an unix based system, the command `which python3` must do the job for you:
 
@@ -89,6 +89,8 @@ The original table comes from:
 
 <br>
 <br>  
+
+*ps: the file b4s.ipynb has nothing to do with the script, but I love jupyter since it's easier to manipulate tiny pieces of code, thus pay attention, the file you'll use to schedule your cron is the .py one*
 
 ## ✧･ﾟ: *✧･ﾟ:* ✧･ﾟ: *✧･ﾟ:* This is it. Suggestions? [Mail me](mailto:minhadona@tuta.io) ✧･ﾟ: *✧･ﾟ:* ✧･ﾟ: *✧･ﾟ:*
 
