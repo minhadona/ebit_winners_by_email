@@ -48,6 +48,5 @@ The original table comes from:
 
 ![](https://imgur.com/mRq9SkD)
 
-This is it. Suggestions? Mail me!
-
+This is it. Suggestions? [Mail me](mailto:minhadona@tuta.io)
 
