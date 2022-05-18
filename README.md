@@ -8,7 +8,6 @@ Set a cron job to run this script and receive the winners list by e-mail :)
 >This is a simple webscraping using the classic beautiful soup lib. Then we steal the whole table of winners available in their [website](https://company.ebit.com.br/concorra-premios/ultimos-ganhadores), format the table using pretty_html_table lib and mail to you! 
     
 <br>
-<br>
 
 ## WHAT WE HAVE: 
 <br>
@@ -36,7 +35,7 @@ If you're using an unix based system, the command `which python3` must do the jo
 
 ![](https://i.imgur.com/xxFADqu.png)
 
-so, the path where your python bynary is locate is */opt/homebrew/bin/python3*   
+so, the path where your python binary is locate is */opt/homebrew/bin/python3*   
 
 <br>
 <br>
@@ -57,7 +56,7 @@ This handles your super secret 16-digit password even if you're out of your belo
 `$ export EMAIL_PASSWORD=this16digitspassword`   
 `$ export EMAIL_USERNAME=email@gmail.com`
   
-This is the gmail you'll use to authenticate **and** to where you'll send the table we've fetched from the website!
+This is the gmail credentials you'll use to authenticate **AND** to whom you'll send the table we've fetched from the website!
 > if you wanna send the table to another person, change `receiver_email` directly on code   
 
 <br>
@@ -67,6 +66,10 @@ This is the gmail you'll use to authenticate **and** to where you'll send the ta
 # 4. Try to execute the raw script by typing on terminal 
 `$ /opt/homebrew/bin/python3 b4s.py`  
 > ʕʘ̅͜ʘ̅ʔ remember, if the b4s.py file is not on current directory, fill the absolute path to the .py file on command, just like we did with the interpreter python3 path!   
+
+if the file successfully executes, this is what you'll get:   
+
+![](https://i.imgur.com/XFOpUAD.png)
 
 <br>
 <br>
