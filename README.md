@@ -7,6 +7,21 @@ Set a cron job to run this script and receive the winners list by e-mail :)
 
 >This is a simple webscraping using the classic beautiful soup lib. Then we steal the whole table of winners available in their [website](https://company.ebit.com.br/concorra-premios/ultimos-ganhadores), format the table using pretty_html_table lib and mail to you! 
     
+<br>
+<br>
+
+## WHAT WE HAVE: 
+<br>
+
+![](https://imgur.com/mRq9SkD.png)
+
+
+## WHAT WE WANT:  
+<br>  
+   
+![](https://i.imgur.com/EIMs4x7.png)
+
+
    
 ## You'll need
 - a gmail account 
@@ -29,7 +44,7 @@ so, the path where your python bynary is locate is */opt/homebrew/bin/python3*
 
 -----------------------   
 # 2. Create an app password specially for this script  
-We know you don't want to expose any password and then you might create infinite app passwords for your e-mail and use every single of them in one different app! Just follow [this](https://support.google.com/accounts/answer/185833?hl=en) AND GRAB YOUR 16 MAGIC CHARS!  
+We know you don't want to expose any password and  you might create infinite app passwords for your e-mail to use every single of them in a different app! Just follow [this](https://support.google.com/accounts/answer/185833?hl=en) AND GRAB YOUR 16 MAGIC CHARS for this script!  
 
 
 <br>
@@ -58,13 +73,6 @@ This is the gmail you'll use to authenticate **and** to where you'll send the ta
 
 ------
 # 5. Check your mail!
-Something like this must be there:  
-
-![](https://i.imgur.com/EIMs4x7.png)
-
-The original table comes from: 
-
-![](https://imgur.com/mRq9SkD.png)
 
 <br>
 <br>
