@@ -40,7 +40,17 @@ This handles your super secret 16-digit password even if you're out of your belo
 `$ export EMAIL_USERNAME=email@gmail.com`
   
     
-      
+
+
+
+
+
+
+
+
+
+    
+         
   
   -----------------------
 ## 4. Try to execute the raw script by typing on terminal 
