@@ -85,7 +85,7 @@ if the file successfully executes, this is what you'll get:
 - On your terminal, type `$ crontable -e`  
 - This will open a file, every line is potentially a task that you can schedule your computer to execute for you! In this case, we'll schedule a python file.  
 - Translate your schedule to [cron syntax](https://crontab.guru/)
-- To habilitate edition, type `i` (yes, like insertion)
+- To enable edition, type `i` (yes, like insertion)
 - Now, edit one line by following the example:
 ```
 05 11 * * 5 /opt/homebrew/bin/python3  ~/Documents/scripts/b4s.py
