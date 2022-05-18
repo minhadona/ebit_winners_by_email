@@ -8,7 +8,7 @@ Set a cron job to run this script and receive the winners list by e-mail :)
 >This is a simple webscraping using the classic beautiful soup lib. Then we steal the whole table of winners available in their [website](https://company.ebit.com.br/concorra-premios/ultimos-ganhadores), format the table using pretty_html_table lib and mail to you! 
     
    
-# You'll need
+## You'll need
 - a gmail account 
 - recent version of python installed
 - basic knowledge of cron (or app deploy on heroku, it's up to you)
@@ -16,7 +16,7 @@ Set a cron job to run this script and receive the winners list by e-mail :)
  <br>
  <br>
 
-## 1. Find where your python is
+# 1. Find where your python is
 If you're using an unix based system, the command `which python3` must do the job for you:
 
 ![](https://i.imgur.com/xxFADqu.png)
@@ -28,7 +28,7 @@ so, the path where your python bynary is locate is */opt/homebrew/bin/python3*
 
 
 -----------------------   
-## 2. Create an app password specially for this script  
+# 2. Create an app password specially for this script  
 We know you don't want to expose any password and then you might create infinite app passwords for your e-mail and use every single of them in one different app! Just follow [this](https://support.google.com/accounts/answer/185833?hl=en) AND GRAB YOUR 16 MAGIC CHARS!  
 
 
@@ -36,7 +36,7 @@ We know you don't want to expose any password and then you might create infinite
 <br>  
 
   -----------------------
-## 3. Export as environment variable 
+# 3. Export as environment variable 
 This handles your super secret 16-digit password even if you're out of your beloved machine. If you are doing some deploy on Heroku, for example, the syntax to get the environment variables is exactly the same. If works on cron, works on your secret deploy. The variables just have to be there!  
 
 `$ export EMAIL_PASSWORD=this16digitspassword`   
@@ -49,7 +49,7 @@ This is the gmail you'll use to authenticate **and** to where you'll send the ta
 <br>
 
   -----------------------  
-## 4. Try to execute the raw script by typing on terminal 
+# 4. Try to execute the raw script by typing on terminal 
 `$ /opt/homebrew/bin/python3 b4s.py`  
 > ʕʘ̅͜ʘ̅ʔ remember, if the b4s.py file is not on current directory, fill the absolute path to the .py file on command, just like we did with the interpreter python3 path!   
 
@@ -57,7 +57,7 @@ This is the gmail you'll use to authenticate **and** to where you'll send the ta
 <br>
 
 ------
-## 5. Check your mail!
+# 5. Check your mail!
 Something like this must be there:  
 
 ![](https://i.imgur.com/EIMs4x7.png)
@@ -70,7 +70,7 @@ The original table comes from:
 <br>
 
 -------
-## 6. Take your cron! 
+# 6. Take your cron! 
 - On your terminal, type `$ crontable -e`  
 - This will open a file, every line is potentially a task that you can schedule your computer to execute for you! In this case, we'll schedule a python file.  
 - Translate your schedule to [cron syntax](https://crontab.guru/)
