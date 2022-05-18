@@ -13,6 +13,8 @@ Set a cron job to run this script and receive the winners list by e-mail :)
 - recent version of python installed
 - basic knowledge of cron (or app deploy on heroku, it's up to you)
      
+ <br>
+ <br>
          
 ## 1. Find where your python is
 If you're using an unix based system, the command `which python3` must do the job for you:
@@ -89,6 +91,7 @@ The original table comes from:
 <br>  
 
 ## ✧･ﾟ: *✧･ﾟ:* ✧･ﾟ: *✧･ﾟ:* This is it. Suggestions? [Mail me](mailto:minhadona@tuta.io) ✧･ﾟ: *✧･ﾟ:* ✧･ﾟ: *✧･ﾟ:*
+
 ![](https://i.pinimg.com/originals/f4/e1/e0/f4e1e08ac2c429a6646892cbc265b5f2.gif)
 
 
