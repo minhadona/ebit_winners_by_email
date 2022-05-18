@@ -1,22 +1,14 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
+# In[1]:
 
 
 # script by: @minhadona 
 # suggestions: minhadona@tuta.io
 
 
-# In[31]:
-
-
-# import os
-# os.environ['EMAIL_USERNAME'] = 'yourREALemail@provider.com'
-# os.environ["EMAIL_PASSWORD"] = 'yourpassword'
-
-
-# In[32]:
+# In[7]:
 
 
 #==============================================
@@ -45,7 +37,7 @@ for row in table.tbody.find_all('tr'):
     df = df.append({'mes': mes,  'serie': serie, 'premio': premio, 'data_do_sorteio': data_do_sorteio, 'n_sorteado': n_sorteado, 'cupom_premiado': cupom_premiado, 'nome_ganhador':nome_ganhador}, ignore_index=True)
 
 
-# In[35]:
+# In[8]:
 
 
 #==============================================
@@ -60,15 +52,13 @@ from email.utils import formataddr
 import os
 import logging
 
-port = 465  # For SSL
+#port = 465  # For SSL
+port = 465
 smtp_server = "smtp.gmail.com"
-sender_email = "Q&A@minhadona.com" # Enter your address
-receiver_email = "gabriella.borges@alumni.usp.br"  # Enter receiver address
-# password = 'pnhncamnqyjcdxhu'
+sender_email = "ebit_webscraping@minhadona.com" # Enter your address
+receiver_email = "mg88zollverein@gmail.com"  # Enter receiver address
 password = os.environ['EMAIL_PASSWORD']
-# password = "urpynpubrlbfkity"
 email_username = os.environ['EMAIL_USERNAME']
-# email_username =  "mg88zollverein@gmail.com"
 message = MIMEMultipart("alternative")
 message["Subject"] = "-------------- resultados ebit --------------"
 message["From"] = str(Header("RESULTADOS EBIT <resultados_ebit@minhadona.com>"))
@@ -85,20 +75,22 @@ def connect_and_send_email(plain_text, html_text):
     # The email client will try to render the last part first
     message.attach(part1)
     message.attach(part2)
-
+    print('<password><'+password+'><username><'+email_username+'>')
     context = ssl.create_default_context()
     with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
+        server.ehlo()
         logged = server.login(email_username, password)
         sent = server.sendmail(sender_email, receiver_email, message.as_string())  
         logging.info(f'you are authenticated! return of server.login: {logged} type of server.login: {type(logged)}')
         logging.info(f'sent: {sent} type {(type(sent))}') 
+        server.close()
         if isinstance(sent,dict):
             print('!email successfully sent!')
             logging.warning(' this forwards the whole available table; if you just want a sample, reassign the variable <df> to <df.head(n)> by n meaning the number of lines you want on your output table')
         
 
 
-# In[36]:
+# In[9]:
 
 
 #==============================================
