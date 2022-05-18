@@ -101,7 +101,7 @@ if the file successfully executes, this is what you'll get:
 <br>
 <br>  
 
-*ps: the file b4s.ipynb has nothing to do with the script, but I love jupyter since it's easier to manipulate tiny pieces of code, thus pay attention, the file you'll use to schedule your cron is the .py one*
+*ps: the file b4s.ipynb has nothing to do with the script, but I love jupyter since it's easier to manipulate tiny pieces of code; thus the file you'll use to schedule your cron is the .py one*
 
 ## ✧･ﾟ: *✧･ﾟ:* ✧･ﾟ: *✧･ﾟ:* This is it. Suggestions? [Mail me](mailto:minhadona@tuta.io) ✧･ﾟ: *✧･ﾟ:* ✧･ﾟ: *✧･ﾟ:*
 
