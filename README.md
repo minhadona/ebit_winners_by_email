@@ -26,7 +26,7 @@ Set a cron job to run this script and receive the winners list by e-mail :)
 - a gmail account 
 - recent version of python installed
 - clone this repository, browse into it
-- execute `pip install -r requirements.txt`
+- execute `run.sh` (UNIX) OR `run.bat` (Windows)
 - basic (VERY BASIC) knowledge of cron (or app deploy on heroku, it's up to you) - optional
      
  <br>
@@ -36,6 +36,8 @@ Set a cron job to run this script and receive the winners list by e-mail :)
 If you're using an unix based system, the command `which python3` must do the job for you:
 
 ![](https://i.imgur.com/xxFADqu.png)
+
+If you're on Windows, the equivalent command is `where python3` OR `where python`.
 
 so, this is the path where your python binary is located: */opt/homebrew/bin/python3*   
 
@@ -66,8 +68,8 @@ This is the gmail credentials you'll use to authenticate **AND** to whom you'll 
 
   -----------------------  
 # 4. Try to execute the raw script by typing on terminal 
-`$ /opt/homebrew/bin/python3 b4s.py`  
-> ʕʘ̅͜ʘ̅ʔ remember, if the b4s.py file is not on current directory, fill the absolute path to the .py file on command, just like we did with the interpreter python3 path!   
+`$ /opt/homebrew/bin/python3 scraping_winners.py`  
+> ʕʘ̅͜ʘ̅ʔ remember, if the scraping_winners.py file is not on current directory, fill the absolute path to the .py file on command, just like we did with the interpreter python3 path!   
 
 if the file successfully executes, this is what you'll get:   
 
@@ -90,10 +92,10 @@ if the file successfully executes, this is what you'll get:
 - To enable edition of the file, type `i` (yes, like insertion)
 - Now, edit one line by following the example:
 ```
-05 11 * * 5 /opt/homebrew/bin/python3  ~/Documents/scripts/b4s.py
+05 11 * * 5 /opt/homebrew/bin/python3  ~/Documents/scripts/scraping_winners.py
 ```
   
-  This statement would execute the file b4s.py file, located on Documents/scripts, using python3 interpreter, located at homebrew binaries folder every friday at 11h05
+  This statement would execute the file scraping_winners.py file, located on Documents/scripts, using python3 interpreter, located at homebrew binaries folder every friday at 11h05
 
 After settling your crontable file, type `Esc` to leave edition mode 
 
